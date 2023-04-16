@@ -1,0 +1,87 @@
+
+.heading2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;  
+    }
+
+.placeid{
+    display: inline;
+    text-align: left;
+    }
+
+.sub{
+    text-align: right;
+    padding-left: 300px;
+}
+#flw{
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.heading {
+    background-color: rgb(9, 9, 39);
+    padding: 5px;
+    height: 150px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.decor{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 2px;
+    margin-top: 17px;
+    border: 1px solid rgba(253, 131, 1, 0.842);
+     
+}
+.button{
+    color: white;
+    background-color: rgb(250, 112, 6);
+    border: 1px solid rgb(0, 0, 0);
+    height: 40px;
+    width: 120px;
+    font-size: smaller;
+    font-weight: bold;
+    margin-left: -1045px;
+}
+.post{
+    text-align:left;
+}
+.button1{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(108, 117, 125);
+    height: 25px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.dropdown{
+    width:  150px;
+    
+}
+.content{
+    display:block;
+}
+
+.content2{
+    text-align: left;
+}
+.content3{
+    padding-right: 150px;
+    text-align: left;
+}
+.allnews{
+    padding-left: 400px;
+}
+#label{
+    display:inline-block;
+}
