@@ -1,0 +1,94 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Roboto',sans-serif;
+}
+.he{
+  background-color: rgb(31, 90, 173);
+  height: 150px;
+  color: rgb(192, 49, 111);
+  text-align: center;
+}
+.ce{
+  background-color: antiquewhite;
+  display: inline-block;
+  color: rgb(99, 29, 29);
+  text-align: center;
+  padding: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-top: 13px;
+}
+.ce p{
+  text-align: center;
+}
+
+.subhead {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.b{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(12, 122, 132);
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+.cardd{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardd .im{
+  width: 20%;
+  padding: 30px;
+}
+
+img{
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+img:hover{
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.cardd .info{
+  width: 80%;
+  padding: 30px;
+  margin-left: 30px;
+}
+
+.btn{
+  text-align: center;
+  display: inline-block; 
+  box-shadow: 1px black;
+  text-decoration: none;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(17, 12, 159);
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+}
+
+h2{
+    color: rgb(129, 21, 164);
+}
+p{
+    padding-top: 5px;
+    text-align: justify;
+}
+.txt{
+    padding-top: 20px;
+}
