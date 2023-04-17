@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.headerr{
+    background-color:rgb(9, 0, 62);
+    height: 105px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.bg-white{
+    background-color: white;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 13px;
+}
+.bg-white p{
+    text-align: center;
+}
+select{
+    padding: 5px;
+}
+input[type="email"]{
+    padding: 5px;
+    margin-top: 3px;
+}
+.allNews-head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.btn{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.cardd{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardd .imgg{
+    width: 20%;
+    padding: 30px;
+}
+
+img{
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+img:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.cardd .info{
+    width: 80%;
+    padding: 30px;
+    margin-left: 30px;
+}
+
+.blog-btn{
+    padding: 10px;
+    background-color: rgb(255, 55, 0);
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    display: inline-block; 
+    box-shadow: 1px black;
+    text-decoration: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.blog-btn:hover {
+    background-color: rgb(255, 55, 0);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+}
+h2{
+    color: rgb(0, 0, 124);
+}
+p{
+    padding-top: 5px;
+    text-align: justify;
+}
+.textt{
+    padding-top: 20px;
+}
+.footerr{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+@media screen and (max-width: 768px) {
+    .cardd{
+        display:block;
+    }
+    .allNews-head {
+        display: block;
+        padding: 5px;
+    }
+  }
+  
+  /* Styles for screens larger than 768 pixels */
+  @media screen and (max-width: 1477px) {
+    .cardd{
+        display:block;
+    }
+  }
