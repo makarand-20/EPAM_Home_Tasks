@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="payment_form.css">
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1 class="main_heading"> <center><i><b>Payment Form</b></i></center></h1>
+        <hr>
+        <h2><center>Contact Information</center></h2>
+        <p>Name: * <input type="text" name="name" required placeholder="Full Name"></p>
+        <br>
+        <p>Address: <textarea name="Address" id="" cols="100" rows="7"></textarea></p>
+        <fieldset>
+            <legend>Gender</legend>
+        <p>
+            Male <input type="radio" name="Gender" id="">
+            <br>
+            Female <input type="radio" name="Gender" id="">
+        </p>
+        </fieldset>
+        <p>Mobile no.: <input type="number" name="number" id="number"></p>
+        <p>Email: <input type="email" name="Email" id="Email"></p>
+        <br>
+        <p>Pincode: <input type="number" name="pincode" id="pincode"></p>
+        <hr>
+        <h2>
+            <center>Payment Information</center>
+        </h2>
+        <br>
+        <p>Card Type: 
+            <select name="card_type" id="card_type">
+                <option value="">Select the card type</option>
+                <option value="VISA">VISA</option>
+                <option value="MasterCard">Master Card</option>
+                <option value="Rupay"> Rupay </option>
+            </select>
+        </p>
+        <br>
+        <p>Card Number: <input type="number" name="card_number" id="card_number"></p>
+        <br>
+        <p>Expiry Date: <input type="date" name="date" id="date"></p>
+        <br>
+        <p>CVV: <input type="password" name="cvv" id="cvv"></p>
+        <br>
+        <hr>
+        <input type="submit" value="Pay Now">
+        <br>
+        <input type="reset" value="Reset">
+    </form>
+    </div>
+</body>
+</html>

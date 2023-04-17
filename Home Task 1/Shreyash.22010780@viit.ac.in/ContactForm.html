@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+</head>
+<body>
+    <h1><b><u><center> Your Details Here</center></u></b></h1>
+<!--      action tells us where the information goes in the backend -->
+    <form action="">
+        <label for="name">First Name : </label>
+        <input id="name" type="text" name="name">
+        <label for="surname"> Second Name : </label>
+        <input id="surname" type="text" name="surname">
+        <br><br>
+
+        <label for="age">Age</label>
+        <input id="age" type="number">
+        <br><br>
+
+        <label for="mob">Phone No. : </label>
+        <input type="number" name="number" id="mob">
+        <br><br>
+
+        <label for="dob">Date of Birth : </label>
+        <input id = "dob" type="date">
+        <br><br>
+
+        <label for="email">Email : </label>
+        <input id = "email" type="email">
+
+        <label for="pass">Password : </label>
+        <input id="pass" type="password">
+        <br><br>
+
+        <label for="add">Address : </label><br>
+        <textarea name="Address" id="add" cols="30" rows="5"></textarea>
+
+        <p>Gender</p>
+        <input id="male" name="gender" type="radio" value="Male">
+        <label for="male">Male</label>
+        <br>
+        <input id="female" name="gender" type="radio" value="Female">
+        <label for="female">Female</label>
+        <br>
+        <input id="others" name="gender" type="radio" value="Others">
+        <label for="others">Others</label>
+        
+        <br><br>
+
+        <label for="color">Your Fav Color</label>
+        <input type="color" name="" id="color">
+        <br><br>
+
+        <label for="city">Your City:</label>
+        <select name="cities" id="city">
+            <option value="pune">Pune</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="nagpur">Nagpur</option>
+            <option value="banglore">Banglore</option>
+        </select>
+        <br><br>
+        
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+        
+
+    </form>
+</body>
+</html>
