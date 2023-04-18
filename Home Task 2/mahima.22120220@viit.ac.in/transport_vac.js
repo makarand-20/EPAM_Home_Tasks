@@ -1,5 +1,4 @@
 function rentalCarCost(d) {
-    // Your solution here
     cost = d * 40;
     if(d >= 7){
       return cost - 50;
