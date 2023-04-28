@@ -1,0 +1,25 @@
+h1{
+    color: white;
+    background-color: rgb(92, 92, 220);
+    border: 4px black solid;
+    padding: 25px;
+}
+h5{
+    color: black;
+    padding: 0.35%;
+    text-decoration: overline;
+}
+p {
+    color: black;
+    font-style: italic;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div{
+    padding: 18px;
+    border: 7px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    text-overflow:unset;
+}
