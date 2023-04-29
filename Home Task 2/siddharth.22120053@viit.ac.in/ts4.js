@@ -19,5 +19,7 @@
   }
   
   function rentalCarCost(days) {
-    return baseCost(days, 40) - discountRate(days);
+    console.log( baseCost(days, 40) - discountRate(days));
   }
+
+  rentalCarCost(7);
