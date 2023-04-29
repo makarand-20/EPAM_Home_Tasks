@@ -1,0 +1,82 @@
+.main-bg{
+    background-color: navy;
+    height:120px;
+    position: relative; 
+}
+
+span h2
+{
+    margin-top: 1%;
+    color:orange;
+    position:absolute;
+    width: 150px;
+    text-align: center;
+    height: 10px;    
+    padding-left: 116px;
+    padding-right: 10px;
+}
+
+.main-text{
+    border: 1px solid black;
+    background-color: green;
+    height: 60px;
+    width: 400px;
+    margin-top: 30px;
+    position: absolute;
+    text-align:center;    
+    margin-left: 40%;
+
+}
+
+.main-title{
+    display: flex;
+    margin-top: 1%;
+    padding-left:20% ;
+
+    padding: 0px;
+    text-align:justify ;
+    margin-bottom: 2%;
+}
+
+.main-sec{
+    padding-left: 40%;
+    padding-right: 27%;
+}
+
+.read-btn{
+    background-color: orangered;
+    padding: 2px;  
+    height: 30px; 
+}
+
+input[type=email] {
+    text-align:center;
+   
+}
+
+p{
+    text-align:justify;
+  }
+
+.a{
+    background-color: black;
+    color: white; 
+}
+
+.img-box{
+    margin-left: 20px;
+    margin-right: 60px;
+    height: 210px;
+    width:500px;
+    align-content: center;
+    background-color:gainsboro;
+}
+
+
+
+
+
+  
+
+
+    
