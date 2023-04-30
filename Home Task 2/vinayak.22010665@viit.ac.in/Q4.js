@@ -1,8 +1,6 @@
-// Problem statement Link
-//http://www.codewars.com/kata/transportation-on-vacation
+//Transportation on vacation
 
- // Solution
- function baseCost(days, rate) {
+function baseCost(days, rate) {
     return days * rate;
   }
   
@@ -19,7 +17,5 @@
   }
   
   function rentalCarCost(days) {
-    console.log( baseCost(days, 40) - discountRate(days));
+    return baseCost(days, 40) - discountRate(days);
   }
-
-  rentalCarCost(7);
